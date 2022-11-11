@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-function Newsletter() {
+const Newsletter = () => {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -39,8 +39,8 @@ function Newsletter() {
 
               {/* CTA content */}
               <div className="text-center lg:text-left lg:max-w-xl">
-                <h3 className="h3 text-white mb-2">Powering your business</h3>
-                <p className="text-gray-300 text-lg mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit nemo expedita voluptas culpa sapiente.</p>
+                <h3 className="h3 text-white mb-2">Getting our Newsletter</h3>
+                <p className="text-gray-300 text-lg mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit nemo expedita voluptas culpa sapiente.</p>
 
                 {/* CTA form */}
                 <form className="w-full lg:w-auto">
@@ -50,7 +50,7 @@ function Newsletter() {
                   </div>
                   {/* Success message */}
                   {/* <p className="text-sm text-gray-400 mt-3">Thanks for subscribing!</p> */}
-                  <p className="text-sm text-gray-400 mt-3">7 days free trial. No credit card required.</p>
+                  <p className="text-sm text-gray-400 mt-3">you will get the latest news about our website.</p>
                 </form>
               </div>
 
@@ -62,6 +62,6 @@ function Newsletter() {
       </div>
     </section>
   );
-}
+};
 
 export default Newsletter;

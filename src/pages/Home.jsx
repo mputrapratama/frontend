@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Header from '../partials/Header';
+import Header from '../components/Header';
 import HeroHome from '../partials/HeroHome';
 import FeaturesHome from '../partials/Features';
 import FeaturesBlocks from '../partials/FeaturesBlocks';
